@@ -1,4 +1,4 @@
-function tabuada(){
+function calctab() {
     var num = window.document.getElementById('txtn')
     var tab = window.document.getElementById('tabuada')
         
