@@ -38,6 +38,9 @@ function add(){
         }
 
     }
+    n.placeholder = ''
+    n.value = ''
+    n.focus()
 }
 
 
