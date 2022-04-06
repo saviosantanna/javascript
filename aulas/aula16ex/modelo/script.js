@@ -52,7 +52,6 @@ function calc(){
             soma += vetor[j]
         }
         vetor.sort(function (a, b){return a-b});
-        window.alert(vetor)
         res.innerHTML = `Ao todo, temos ${vetor.length} números cadastrados<br><br>
         O maior valor informado foi ${vetor[i-1]}<br><br>
         O menor valor informado foi ${vetor[0]}<br><br>
